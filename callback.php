@@ -2,9 +2,9 @@
 error_log("callback start.");
 
 // アカウント情報設定
-$channel_id = "[チャンネルID]";
-$channel_secret = "[チャンネルシークレット]";
-$mid = "[MID]";
+$channel_id = "1496191346";
+$channel_secret = "e337a808cfd7429041831f98c3414448";
+$mid = "";
 
 // リソースURL設定
 $original_content_url_for_image = "[画像URL]";
