@@ -1,6 +1,8 @@
 <?php
 error_log("callback start.");
 
+echo 'CallBack started.';
+
 // アカウント情報設定
 $channel_id = "1496191346";
 $channel_secret = "e337a808cfd7429041831f98c3414448";
