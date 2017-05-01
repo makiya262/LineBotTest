@@ -3,10 +3,19 @@ error_log("callback start.");
 
 echo 'CallBack started.';
 
+$bot = new LineBot($CHANNEL_ID, $CHANNEL_SECRET, $CHANNEL_MID);
+// テキスト送信
+$bot->sendText('「%s」デスネ...');
+
 // アカウント情報設定
 $channel_id = "1496191346";
 $channel_secret = "e337a808cfd7429041831f98c3414448";
 $mid = "";
+
+$bot = new LineBot($channel_id, $channel_secret, $mid);
+// テキスト送信
+$bot->sendText('「%s」デスネ...');
+
 
 // リソースURL設定
 $original_content_url_for_image = "[画像URL]";
